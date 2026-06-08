@@ -1,0 +1,38 @@
+GGA = RP
+
+ENCUT=434.431
+
+ISTART=0
+ICHARG=2
+ISPIN=2
+#MAGMOM=36*1 2*1 2*1
+LORBIT = 11
+
+# parellel calculation
+LPLANE = .TRUE.
+NPAR   = 8
+LSCALU = .FALSE.
+NSIM   = 4
+
+#Relaxation
+IBRION=2  ! conjugate-gradient algorithm 
+ISIF=2  !3 relaxes cell shape and volume, 2 fixes cell shape and volume
+NSW=501  !ionic steps
+
+PREC=Accurate
+EDIFF=1.0E-6
+EDIFFG=-0.03
+
+#DOS values
+ISMEAR=2
+SIGMA=0.2
+#WAVECAR and CHARGECAR generation
+LWAVE=.FALSE.
+LCHARG=.FALSE
+LVTOT = .FALSE. !write LOCPOT
+INIWAV=1
+ALGO=Fast
+
+POTIM=0.1
+
+LREAL=Auto
