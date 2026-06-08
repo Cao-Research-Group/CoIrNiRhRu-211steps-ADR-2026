@@ -1,6 +1,6 @@
 (i) "MMC-source_code" directory: source code for MMC simulations; 
 
-(ii) "training-structures-POSCAR" directory: all training structures in VASP-compatible format (.vasp/POSCAR) for  clean and *N-adsorbed slabs; 
+(ii) "training-structures" directory: all training structures in VASP-compatible format (.vasp/POSCAR) for  clean and *N-adsorbed slabs; 
 
 (iii) "vasp_input" directory: the VASP INCAR input file, and PRECALC file for KPOINTS generation; 
 
