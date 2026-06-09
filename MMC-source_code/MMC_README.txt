@@ -10,7 +10,7 @@
 
 (vi) PRIM.vasp: the PRIM file for CoIrNiRhRu fcc-(211) CE.
 
-In our settings, The annealing schedule was set to cool from 2000 K to 1000 K in ¦¤T = 20 K increments. 
+In our settings, The annealing schedule was set to cool from 2000 K to 1000 K in delta_T = 20 K increments. 
 At each temperature, the equilibration length of the MMC simulations was set to 4500 times of the total sites;
 the recording length was set to 500 times of the total sites. 
-For our 15¡Á16 slab (1840 sites), this corresponds to 8,280,000 equilibration steps and 920,000 recording steps per temperature.
+For our 15 x 16 slab (1840 sites), this corresponds to 8,280,000 equilibration steps and 920,000 recording steps per temperature.
