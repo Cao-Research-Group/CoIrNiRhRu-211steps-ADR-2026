@@ -6,6 +6,8 @@
 
 (iv) ECIs_list: the list of fitted ECIs for CE model; 
 
-(v) training-structures-energyList: the corresponding DFT-calculated total energies;
+(v) energy-list: the corresponding DFT-calculated energies of training structures;
 
-(vi) CATKINAS_INPUT.m: the input file of CATKINAS for volcano plot generation.
+(vi) PRIM.vasp is the PRIM file for CoIrNiRhRu fcc-(211) CE. 
+
+(vii) CATKINAS_INPUT.m: the input file of CATKINAS for volcano plot generation.
