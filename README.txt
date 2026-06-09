@@ -4,7 +4,7 @@
 
 (iii) "VASP_input" directory: the VASP INCAR input file, and PRECALC file for KPOINTS generation; 
 
-(iv) CE-eci: the list of fitted ECIs for CE model; 
+(iv) ECIs_list: the list of fitted ECIs for CE model; 
 
 (v) training-structures-energyList: the corresponding DFT-calculated total energies;
 
